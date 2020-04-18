@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat Apr 18 14:06:12 2020 by Eclipse SUMO Version 1.1.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../Torino.net.xml"/>
+        <route-files value="./Routing_shortCars.rou.xml"/>
+        <additional-files value="../TAZ_file_residential.taz.xml,./Detectors_shortCars.add.xml,./Vtype_shortCars.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="./Summary_shortCars.xml"/>
+        <vehroute-output value="./VehTraces_shortCars.xml"/>
+        <vehroute-output.exit-times value="true"/>
+        <vehroute-output.sorted value="true"/>
+        <vehroute-output.route-length value="true"/>
+        <vehroute-output.write-unfinished value="true"/>
+    </output>
+
+    <time>
+        <end value="86400"/>
+    </time>
+
+    <processing>
+        <no-internal-links value="true"/>
+        <ignore-junction-blocker value="5"/>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="150"/>
+    </processing>
+
+    <report>
+        <xml-validation value="never"/>
+        <no-warnings value="true"/>
+    </report>
+
+    <mesoscopic>
+        <mesosim value="true"/>
+        <meso-junction-control.limited value="true"/>
+        <meso-overtaking value="true"/>
+    </mesoscopic>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
