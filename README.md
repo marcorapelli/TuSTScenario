@@ -20,7 +20,7 @@ To validate the model, traffic flows were compared to real flows measured from 5
 
 ![Case Study Map](Map.png)
 
-## How to cite it: [BibTeX](cite.bib)
+## Publications: [BibTeX](cite.bib)
 
 Best paper award of DS-RT 2019 to M. Rapelli, C. Casetti, G. Gagliardi,
 *"TuST: from Raw Data to Vehicular Traffic Simulation in Turin"*
