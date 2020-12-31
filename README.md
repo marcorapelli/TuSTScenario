@@ -4,7 +4,7 @@ Contacts: Marco RAPELLI [rapelli.m@libero.it], Claudio CASETTI [claudio.casetti@
 
 This project is licensed under the terms of the GPLv3 license.
 
-TuST Scenario is meant to be used with SUMO (Simulator of Urban MObility) and is developed with [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0).
+TuST Scenario is meant to be used with SUMO (Simulator of Urban MObility). It has been developed with [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0) and it has been successfully tested also for [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0) and [SUMO 1.3.1](https://github.com/eclipse/sumo/tree/v1_3_1).
 
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
 
@@ -20,7 +20,7 @@ To validate the model, traffic flows were compared to real flows measured from 5
 
 ![Case Study Map](Map.png)
 
-## Publications: [BibTeX](cite.bib)
+## How to cite it: [BibTeX](cite.bib)
 
 Best paper award of DS-RT 2019 to M. Rapelli, C. Casetti, G. Gagliardi,
 *"TuST: from Raw Data to Vehicular Traffic Simulation in Turin"*
