@@ -1,3 +1,0 @@
-Scenario/CompleteTrafficDemand/VehTraces_shortCars.tar.gz filter=lfs diff=lfs merge=lfs -text
-*.xml filter=lfs diff=lfs merge=lfs -text
-*.tar.gz filter=lfs diff=lfs merge=lfs -text
