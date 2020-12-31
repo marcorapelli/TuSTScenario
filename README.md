@@ -4,7 +4,7 @@ Contacts: Marco RAPELLI [rapelli.m@libero.it], Claudio CASETTI [claudio.casetti@
 
 This project is licensed under the terms of the GPLv3 license.
 
-_TuST Scenario has been developed with [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0) and it has been successfully tested also with [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0) and [SUMO 1.3.1](https://github.com/eclipse/sumo/tree/v1_3_1).
+__TuST Scenario has been developed with [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0) and it has been successfully tested also with [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0) and [SUMO 1.3.1](https://github.com/eclipse/sumo/tree/v1_3_1).
 
 
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
