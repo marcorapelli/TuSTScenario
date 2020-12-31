@@ -4,9 +4,6 @@ Contacts: Marco RAPELLI [rapelli.m@libero.it], Claudio CASETTI [claudio.casetti@
 
 This project is licensed under the terms of the GPLv3 license.
 
-_TuST Scenario has been developed with_ [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0) _and it has been successfully tested also with_ [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0) _and_ [SUMO 1.3.1](https://github.com/eclipse/sumo/tree/v1_3_1).
-
-
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
 
 ### Overview
@@ -27,6 +24,11 @@ Best paper award of DS-RT 2019 to M. Rapelli, C. Casetti, G. Gagliardi,
 *"TuST: from Raw Data to Vehicular Traffic Simulation in Turin"*
 2019 IEEE/ACM 23rd International Symposium on Distributed Simulation and Real Time Applications (DS-RT)
 October, 2019, Cosenza, Italy.
+
+### Important Note
+
+_TuST Scenario has been developed with_ [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0) _and it has been successfully tested also with_ [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0) _and_ [SUMO 1.3.1](https://github.com/eclipse/sumo/tree/v1_3_1). _Although it's possible to use it with more recent versions of SUMO, results may not correspond._
+_SUMO version recommended is_ [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0).
 
 ## How To
 
