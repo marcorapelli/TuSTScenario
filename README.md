@@ -52,5 +52,3 @@ Inside each scenario folder it is possible to find three different outputs:
 * _Summary_ file with general simulation outputs.
 * _DetectorsOutput_ file with edge-based simulation outputs.
 * _VehTraces_ file with the full vehicles traces available.
-
-### IMPORTANT: this wiki page is a work in progress. Do not hesitate to ask for help
