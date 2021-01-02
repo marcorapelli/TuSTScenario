@@ -6,6 +6,9 @@ This project is licensed under the terms of the GPLv3 license.
 
 Please refer to the [SUMO wiki](http://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) for further information on the simulator itself.
 
+**Due to the size of the considered scenario, input and output files may exceed the GitHub maximum file size limit of 100 MB.**
+**For this reason it is required to use [Git LFS](https://git-lfs.github.com) for download files.**
+
 ### Overview
 
 The _TuST (Turin SUMO Traffic)_ simulation scenario describes the traffic within the city of Turin, Italy for a whole day. The original demand data stems from real traffic data of 5T, a public agency managing all the traffic mobility data in the Italian region of Piemonte.
