@@ -68,5 +68,6 @@ It is possible to see how congestion is solved after the afternoon traffic peak.
 
 #### TuST in numbers
 
+ |  
 :---: | :---: 
 Area | 602.61 Km<sup>2</sup>
