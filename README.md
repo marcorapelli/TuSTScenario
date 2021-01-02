@@ -59,7 +59,7 @@ TuST scenario can be lunched directly with its configuration file.
 In order to rebuild the routes it is possible to lunch the route configuration file.
 * `$SUMO_HOME/bin/marouter -c RoutingConfig.xml` from the _Scenario_ folder.
 
-#### Stability Study
+## Statistics
 
 The TuST scenario generate a stable simulation, as highlighted by the following plot, where waiting vehicles measurement is a congestion metric.
 It is possible to see how congestion is solved after the afternoon traffic peak.
@@ -69,7 +69,7 @@ It is possible to see how congestion is solved after the afternoon traffic peak.
 #### TuST in numbers
 
 Description | Value 
-:---: | :---: 
+--- | :---: 
 Area | 602.61 Km<sup>2</sup>
 Nodes | 32,936
 Edges | 66,296
