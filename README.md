@@ -68,6 +68,19 @@ It is possible to see how congestion is solved after the afternoon traffic peak.
 
 #### TuST in numbers
 
- |  
+Description | Value 
 :---: | :---: 
 Area | 602.61 Km<sup>2</sup>
+Nodes | 32,936
+Edges | 66,296
+Traffic Lights | 856
+Roundabouts | 501
+Total edge length | 6,570.28 Km
+Total lane length | 7,723.40 Km
+Final departed vehicles | 2,202,814
+Final waiting vehicles | 0
+Final running vehicles | 5142
+Final arrived vehicles | 2,197,672
+Total collisions | 0
+Total teleports | 334
+Total halting | 19
