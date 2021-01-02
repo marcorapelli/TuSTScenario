@@ -69,5 +69,6 @@ It is possible to see how congestion is solved after the afternoon traffic peak.
 
 Some statistics from a TuST simulation:
 
-|:---:|:---:
-| Area | 602.61 Km<sup>2</sup>
+Description | Value 
+--- | --- 
+Area | 602.61 Km<sup>2</sup>
