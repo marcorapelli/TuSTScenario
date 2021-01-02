@@ -64,7 +64,7 @@ In order to rebuild the routes it is possible to lunch the route configuration f
 The TuST scenario generate a stable simulation, as highlighted by the following plot, where waiting vehicles measurement is a congestion metric.
 It is possible to see how congestion is solved after the afternoon traffic peak.
 
-![Stability Study](StabilityStudy.png)
+![Stability Study](StabilityStudyGraph.png)
 
 #### TuST in numbers
 
