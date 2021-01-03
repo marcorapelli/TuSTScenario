@@ -19,7 +19,7 @@ To validate the model, traffic flows were compared to real flows measured from 5
 
 #### Case Study Map
 
-![Case Study Map](Map.png)
+![Case Study Map](Map_Km.png)
 
 #### Important Note
 
