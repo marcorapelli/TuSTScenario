@@ -15,7 +15,7 @@ The _TuST (Turin SUMO Traffic)_ simulation scenario describes the traffic within
 
 From the original OSM file, an accurate road graph was created using real average velocities from Google APIs and real traffic light phases from 5T data.
 
-To validate the model, traffic flows were compared to real flows measured from 5T street sensors, crating in this way a very realistic large-scale simulator.
+To validate the model, traffic flows were compared to real flows measured from 5T street sensors, creating in this way a very realistic large-scale simulator.
 
 #### Case Study Map
 
@@ -23,7 +23,7 @@ To validate the model, traffic flows were compared to real flows measured from 5
 
 #### Important Note
 
-_TuST Scenario has been developed with_ [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0) _and it has been successfully tested also with_ [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0) _and_ [SUMO 1.3.1](https://github.com/eclipse/sumo/tree/v1_3_1). _Although it is possible to use it with more recent versions of SUMO, results may not correspond._
+_TuST Scenario has been developed with_ [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0) _and it has been successfully tested also with_ [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0) _and_ [SUMO 1.3.1](https://github.com/eclipse/sumo/tree/v1_3_1). _Although it is possible to use it with more recent versions of SUMO, results may differ._
 _Recommended SUMO version is_ [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0).
 
 ## How to cite it: [BibTeX](cite.bib)
@@ -41,27 +41,27 @@ You can find all TuST files in the _Scenario_ folder. In particular:
 * **TAZ\_file\_residential.taz.xml** _(541.5 KB)_ the Traffic Assignment Zones file for the residential streets only.
 * **TuSTVtype.xml** _(68 B)_ the vehicle type definition file.
 * **Detectors.add.xml** _(12.1 MB)_ the detectors file to create the corresponding edge-based output.
-* **Trip.odtrips.xml** _(357.9 MB)_ the trips file used for genereting the routes.
+* **Trip.odtrips.xml** _(357.9 MB)_ the trips file used for generating the routes.
 * **Routing.rou.xml** _(1.8 GB)_ the complete routes file used as input.
 * **RoutingConfig.xml** _(1.1 KB)_ the configuration file used to rebuild routes.
 * **TuST.sumocfg** _(1.5 KB)_ the configuration file for launching the simulation.
 
-In _Scenario/Output_ folder you can find three main output files:
+In the _Scenario/Output_ folder you can find three main output files:
 * **Summary.xml** _(24.4 MB)_ the simulation summary file.
 * **DetectorsOutput.xml** _(311.2 MB)_ the edge-based output file from detectors.
 * **VehTraces.tar.gz** _(595.2 MB zipped, 2.7 GB in total)_ the completed vehicle traces file with all routes and times for every vehicle.
 
 ## How To
 
-TuST scenario can be lunched directly with its configuration file.
+The TuST scenario can be launched directly with its configuration file.
 * `$SUMO_HOME/bin/sumo -c TuST.sumocfg` from the _Scenario_ folder.
 
-In order to rebuild the routes it is possible to lunch the route configuration file.
+In order to rebuild the routes it is possible to launch the route configuration file.
 * `$SUMO_HOME/bin/marouter -c RoutingConfig.xml` from the _Scenario_ folder.
 
 ## Statistics
 
-The TuST scenario generate a stable simulation, as highlighted by the following plot, where waiting vehicles measurement is a congestion metric.
+The TuST scenario generates a stable simulation, as highlighted by the following plot, where the number of waiting vehicles is used as a congestion metric.
 It is possible to see how congestion is solved after the afternoon traffic peak.
 
 ![Stability Study](StabilityStudyGraph.png)
