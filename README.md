@@ -71,6 +71,7 @@ It is possible to see how congestion is solved after the afternoon traffic peak.
 Description | Value 
 --- | :---: 
 Area | 602.61 Km<sup>2</sup>
+Traffic Assignment Zones | 257
 Nodes | 32,936
 Edges | 66,296
 Traffic Lights | 856
