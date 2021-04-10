@@ -4,3 +4,4 @@ Scenario/Output/DetectorsOutput.xml filter=lfs diff=lfs merge=lfs -text
 Scenario/Trip.odtrips.xml filter=lfs diff=lfs merge=lfs -text
 Scenario/TuST.net.xml filter=lfs diff=lfs merge=lfs -text
 Scenario/Output/FullDay/VehTraces.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
