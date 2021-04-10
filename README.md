@@ -67,3 +67,7 @@ Final arrived vehicles | 2,197,672
 Total collisions | 0
 Total teleports | 334
 Total halting | 19
+
+## ChangeLog
+
+April 10<sup>th</sup>, 2021: morning and evening peaks output files.
