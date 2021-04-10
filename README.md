@@ -33,24 +33,6 @@ Best paper award of DS-RT 2019 to M. Rapelli, C. Casetti, G. Gagliardi,
 2019 IEEE/ACM 23rd International Symposium on Distributed Simulation and Real Time Applications (DS-RT)
 October, 2019, Cosenza, Italy.
 
-## Structure
-
-You can find all TuST files in the _Scenario_ folder. In particular:
-* **TuST.net.xml** _(62.5 MB)_ the SUMO network file.
-* **TuST.poly.xml** _(15.6 MB)_ the polygon file to highlight buildings, parks and rivers in the map.
-* **TAZ\_file\_residential.taz.xml** _(541.5 KB)_ the Traffic Assignment Zones file for the residential streets only.
-* **TuSTVtype.xml** _(68 B)_ the vehicle type definition file.
-* **Detectors.add.xml** _(12.1 MB)_ the detectors file to create the corresponding edge-based output.
-* **Trip.odtrips.xml** _(357.9 MB)_ the trips file used for generating the routes.
-* **Routing.rou.xml** _(1.8 GB)_ the complete routes file used as input.
-* **RoutingConfig.xml** _(1.1 KB)_ the configuration file used to rebuild routes.
-* **TuST.sumocfg** _(1.5 KB)_ the configuration file for launching the simulation.
-
-In the _Scenario/Output_ folder you can find three main output files:
-* **Summary.xml** _(24.4 MB)_ the simulation summary file.
-* **DetectorsOutput.xml** _(311.2 MB)_ the edge-based output file from detectors.
-* **VehTraces.tar.gz** _(595.2 MB zipped, 2.7 GB in total)_ the completed vehicle traces file with all routes and times for every vehicle.
-
 ## How To
 
 The TuST scenario can be launched directly with its configuration file.
