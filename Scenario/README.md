@@ -1,4 +1,4 @@
-# Structure
+# Construction files
 
 You can find here all the construction files. In particular:
 * **TuST.net.xml** _(62.5 MB)_ the SUMO network file.
