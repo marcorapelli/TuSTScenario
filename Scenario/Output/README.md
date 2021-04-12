@@ -11,11 +11,11 @@ Output files stored here are divided in:
 
 In every folder three main simulation outputs are provided:
 * **Summary** the simulation summary file with global metrics of the simulation.
-* **DetectorsOutput** the edge-based output file from detectors placed in every edges of the map.
-* **VehTraces** the completed vehicle traces file with all routes and times for every vehicle.
+* **DetectorsOutput** the edge-based output file from detectors placed in every edge of the map.
+* **VehTraces** the complete vehicle traces file with all routes and times for every vehicle.
 
 ### Other outputs
 
-SUMO allows the creation of many other types of output files, as referred in the dedicated [SUMO wiki page](https://sumo.dlr.de/docs/Simulation/Output.html). 
+SUMO allows the creation of many other types of output files, as referred to in the dedicated [SUMO wiki page](https://sumo.dlr.de/docs/Simulation/Output.html). 
 
 If you are interested in any of these, just add the corresponding option in the `<output>` section of the _Scenario/TuST.sumocfg_ file.
