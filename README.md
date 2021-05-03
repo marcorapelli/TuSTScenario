@@ -74,6 +74,6 @@ Total halting | 19
 
 ## ChangeLog
 
-* May 3<sup>rd</sup>, 2021: last journal article added, BibTex updated.
+* May 3<sup>rd</sup>, 2021: last journal article added, BibTeX updated.
 
 * April 10<sup>th</sup>, 2021: morning and evening peaks output files.
