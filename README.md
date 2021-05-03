@@ -26,10 +26,14 @@ To validate the model, traffic flows were compared to real flows measured from 5
 _TuST Scenario has been developed with_ [SUMO 1.1.0](https://github.com/eclipse/sumo/tree/v1_1_0) _and it has been successfully tested also with_ [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0) _and_ [SUMO 1.3.1](https://github.com/eclipse/sumo/tree/v1_3_1). _Although it is possible to use it with more recent versions of SUMO, results may differ._
 _Recommended SUMO version is_ [SUMO 1.2.0](https://github.com/eclipse/sumo/tree/v1_2_0).
 
-## How to cite it: [BibTeX](cite.bib)
+## Publications:
 
-Best paper award of DS-RT 2019 to M. Rapelli, C. Casetti, G. Gagliardi,
-*"TuST: from Raw Data to Vehicular Traffic Simulation in Turin"*
+* M. Rapelli, C. Casetti and G. Gagliardi,
+*"Vehicular Traffic Simulation in the City of Turin from Raw Data"* in
+IEEE Transactions on Mobile Computing, April 2021. DOI: 10.1109/TMC.2021.3075985 [URL](https://ieeexplore.ieee.org/document/9416842) [BibTeX](cite.bib)
+
+* Best paper award of DS-RT 2019 to M. Rapelli, C. Casetti and G. Gagliardi,
+*"TuST: from Raw Data to Vehicular Traffic Simulation in Turin"* in
 2019 IEEE/ACM 23rd International Symposium on Distributed Simulation and Real Time Applications (DS-RT)
 October, 2019, Cosenza, Italy.
 
@@ -70,4 +74,6 @@ Total halting | 19
 
 ## ChangeLog
 
-April 10<sup>th</sup>, 2021: morning and evening peaks output files.
+* May 3<sup>rd</sup>, 2021: last journal article added, BibTex updated.
+
+* April 10<sup>th</sup>, 2021: morning and evening peaks output files.
